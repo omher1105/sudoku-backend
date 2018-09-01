@@ -1,22 +1,42 @@
+import random
+from datetime import datetime
+from random import randint
+
+from apps.sudoku.models import SudokuGenerate, SudokuDetail
+
 SIZE = 9
-matrix = [
-    [6, 5, 0, 8, 7, 3, 0, 9, 0],
-    [0, 0, 3, 2, 5, 0, 0, 0, 8],
-    [9, 8, 0, 1, 0, 4, 3, 5, 7],
-    [1, 0, 5, 0, 0, 0, 0, 0, 0],
-    [4, 0, 0, 0, 0, 0, 0, 0, 2],
-    [0, 0, 0, 0, 0, 0, 5, 0, 3],
-    [5, 7, 8, 3, 0, 1, 0, 2, 6],
-    [2, 0, 0, 0, 4, 8, 9, 0, 0],
-    [0, 9, 0, 6, 2, 5, 0, 8, 1]]
+matrix = [[0 for i in range(9)] for j in range(9)]
 
 
 class SudokuUtils(object):
 
     @classmethod
-    def init_sudoku(cls):
+    def init_sudoku(cls, data):
         cls.solucion_sudoku()
-        return matrix
+        matriz = list(matrix)
+        random.shuffle(matriz)
+        save = cls._save_sudoku_details(data=data, matriz=matriz)
+        return save
+
+    @classmethod
+    def sudoku_status(cls, pk):
+        queryset = SudokuDetail.objects.get(id=pk)
+        queryset['state'] = 2 if queryset['state'] == 1 else 1
+        queryset.save()
+        return queryset
+
+    @classmethod
+    def _save_sudoku_details(cls, data, matriz):
+        detail = {}
+        sudoku_generate = {}
+        detail['id_sudoku'] = sudoku_generate['id']
+        detail['desc'] = data['name']
+        detail['aud_user'] = ''
+        detail['state'] = 1
+        detail['aud_fecha_ini'] = datetime.now()
+        detail['aud_fecha_fin'] = datetime.now()
+        response = SudokuDetail.objects.create(detail)
+        return response
 
     # funcion para imprimir
     @classmethod
@@ -30,7 +50,6 @@ class SudokuUtils(object):
         num_unassign = 0
         for i in range(0, SIZE):
             for j in range(0, SIZE):
-                # cell is unassigned
                 if matrix[i][j] == 0:
                     row = i
                     col = j
