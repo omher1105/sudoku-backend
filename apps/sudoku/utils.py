@@ -28,7 +28,7 @@ class SudokuUtils(object):
     @classmethod
     def _save_sudoku_details(cls, data, matriz):
         detail = {}
-        sudoku_generate = {}
+        sudoku_generate = cls._save_sudoku(matriz=matriz)
         detail['id_sudoku'] = sudoku_generate['id']
         detail['desc'] = data['name']
         detail['aud_user'] = ''
@@ -36,6 +36,15 @@ class SudokuUtils(object):
         detail['aud_fecha_ini'] = datetime.now()
         detail['aud_fecha_fin'] = datetime.now()
         response = SudokuDetail.objects.create(detail)
+        return response
+
+    @classmethod
+    def _save_sudoku(cls, matriz):
+        row = {}
+        for i in range(SIZE):
+            for j in range(SIZE):
+                row['row' + str(i) + '_' + str(j)] = matriz[i][j]
+        response = SudokuGenerate.objects.create(row)
         return response
 
     # funcion para imprimir

@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23b5929d-1e52-4be1-8585-ab3aeeec3594" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/sudoku/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/sudoku/migrations/0002_auto_20180901_0946.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/sudoku/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/sudoku/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/core/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/core/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/core/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/core/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/sudoku/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/sudoku/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/sudoku/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/sudoku/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/sudoku/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/sudoku/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/sudoku/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/sudoku/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sudokubackend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sudokubackend/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sudokuenv1/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/sudokuenv1/pip-selfcheck.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,8 +42,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/sudoku/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+            <state relative-caret-position="130">
+              <caret line="5" column="46" lean-forward="true" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -65,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/sudoku/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="142">
+              <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -89,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="utils.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/sudoku/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+            <state relative-caret-position="490">
+              <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -104,8 +90,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/sudoku/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="90" column="68" selection-start-line="90" selection-start-column="68" selection-end-line="90" selection-end-column="68" />
+            <state relative-caret-position="78">
+              <caret line="3" column="20" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -142,9 +128,9 @@
         <option value="$PROJECT_DIR$/sudokubackend/settings.py" />
         <option value="$PROJECT_DIR$/apps/sudoku/serializers.py" />
         <option value="$PROJECT_DIR$/apps/sudoku/models.py" />
-        <option value="$PROJECT_DIR$/apps/sudoku/utils.py" />
-        <option value="$PROJECT_DIR$/apps/sudoku/urls.py" />
         <option value="$PROJECT_DIR$/apps/sudoku/views.py" />
+        <option value="$PROJECT_DIR$/apps/sudoku/urls.py" />
+        <option value="$PROJECT_DIR$/apps/sudoku/utils.py" />
       </list>
     </option>
   </component>
@@ -193,6 +179,13 @@
               <item name="sudoku-backend" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
               <item name="sudoku" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sudoku-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sudoku-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="sudoku" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sudoku-backend" type="b2602c69:ProjectViewProjectNode" />
@@ -301,9 +294,9 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32897604" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.35729846" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32897604" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29317698" />
-      <window_info anchor="bottom" id="manage.py@sudokubackend" order="8" visible="true" weight="0.32897604" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32897604" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29317698" />
+      <window_info anchor="bottom" id="manage.py@sudokubackend" order="8" weight="0.32897604" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -695,23 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/sudoku/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="90" column="68" selection-start-line="90" selection-start-column="68" selection-end-line="90" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/sudoku/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/sudoku/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -724,8 +700,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/sudoku/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+        <state relative-caret-position="130">
+          <caret line="5" column="46" lean-forward="true" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
@@ -734,10 +710,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/sudoku/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="142">
+          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/sudoku/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/sudoku/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
